@@ -1,0 +1,23 @@
+{
+  "name": "features",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Will Acton",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^3.17.1"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": 0
+    }
+  }
+}
