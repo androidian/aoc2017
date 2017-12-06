@@ -49,4 +49,4 @@ while(pos + trampolineMaze[pos] <= trampolineMaze.length-1) {
 jumps = jumps+1;
 
 console.log(`jumps=${jumps}`);
-console.log(`trampolineMaze=${trampolineMaze}`);
+
